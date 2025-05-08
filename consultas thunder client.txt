@@ -1,0 +1,24 @@
+Consulta 1: Mostrar todas las reservas del 10 de mayo de 2025
+Método: GET
+
+URL: http://localhost:3000/api/reservas/por-fecha
+
+Consulta 2: Buscar reservas donde juegue "Los Titanes"
+Método: GET
+
+URL: http://localhost:3000/api/reservas/los-titanes
+
+Consulta 3: Listar todos los usuarios que han hecho reservas
+Método: GET
+
+URL: http://localhost:3000/api/reservas/usuarios
+
+Consulta 4: Contar cuántas veces se ha reservado la “Cancha Norte”
+Método: GET
+
+URL: http://localhost:3000/api/reservas/cancha-norte
+
+Consulta 5: Mostrar nombres de equipos y la fecha para reservas a las 18:00
+Método: GET
+
+URL: http://localhost:3000/api/reservas/por-hora

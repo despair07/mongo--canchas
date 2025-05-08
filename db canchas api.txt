@@ -1,0 +1,116 @@
+use cancha;
+
+db.reservas.insertMany([
+  {
+    usuario: "Carlos Ramírez",
+    fecha: "2025-05-10",
+    hora: "18:00",
+    cancha: "Cancha Norte",
+    equipo_local: {
+      nombre: "Los Titanes",
+      jugadores: ["Carlos", "Luis", "Pedro", "Andrés", "Julián"]
+    },
+    equipo_visitante: {
+      nombre: "Los Dragones",
+      jugadores: ["Mario", "Jorge", "Camilo", "Sebastián", "Juan"]
+    }
+  },
+  {
+    usuario: "Ana Torres",
+    fecha: "2025-05-10",
+    hora: "17:00",
+    cancha: "Cancha Sur",
+    equipo_local: {
+      nombre: "Los Guerreros",
+      jugadores: ["Andrés", "Sergio", "Raúl", "Kevin", "Esteban"]
+    },
+    equipo_visitante: {
+      nombre: "Los Titanes",
+      jugadores: ["Carlos", "Luis", "Pedro", "Andrés", "Julián"]
+    }
+  },
+  {
+    usuario: "Miguel López",
+    fecha: "2025-05-09",
+    hora: "18:00",
+    cancha: "Cancha Norte",
+    equipo_local: {
+      nombre: "Los Halcones",
+      jugadores: ["Mateo", "Simón", "Lucas", "Juan", "Tomás"]
+    },
+    equipo_visitante: {
+      nombre: "Los Tigres",
+      jugadores: ["David", "José", "Andrés", "Felipe", "Daniel"]
+    }
+  },
+  {
+    usuario: "Laura Gómez",
+    fecha: "2025-05-10",
+    hora: "19:00",
+    cancha: "Cancha Central",
+    equipo_local: {
+      nombre: "Las Águilas",
+      jugadores: ["Laura", "Claudia", "Sofía", "Valentina", "Natalia"]
+    },
+    equipo_visitante: {
+      nombre: "Las Panteras",
+      jugadores: ["María", "Paula", "Isabel", "Camila", "Fernanda"]
+    }
+  },
+  {
+    usuario: "Daniel Ríos",
+    fecha: "2025-05-08",
+    hora: "18:00",
+    cancha: "Cancha Norte",
+    equipo_local: {
+      nombre: "Los Titanes",
+      jugadores: ["Carlos", "Luis", "Pedro", "Andrés", "Julián"]
+    },
+    equipo_visitante: {
+      nombre: "Los Halcones",
+      jugadores: ["Mateo", "Simón", "Lucas", "Juan", "Tomás"]
+    }
+  },
+  {
+    usuario: "Sara Martínez",
+    fecha: "2025-05-10",
+    hora: "18:00",
+    cancha: "Cancha Sur",
+    equipo_local: {
+      nombre: "Los Leones",
+      jugadores: ["Jorge", "Cristian", "Oscar", "Iván", "Alex"]
+    },
+    equipo_visitante: {
+      nombre: "Los Tigres",
+      jugadores: ["David", "José", "Andrés", "Felipe", "Daniel"]
+    }
+  },
+  {
+    usuario: "Juan Herrera",
+    fecha: "2025-05-11",
+    hora: "16:00",
+    cancha: "Cancha Norte",
+    equipo_local: {
+      nombre: "Los Dragones",
+      jugadores: ["Mario", "Jorge", "Camilo", "Sebastián", "Juan"]
+    },
+    equipo_visitante: {
+      nombre: "Los Guerreros",
+      jugadores: ["Andrés", "Sergio", "Raúl", "Kevin", "Esteban"]
+    }
+  },
+  {
+    usuario: "Paola Núñez",
+    fecha: "2025-05-10",
+    hora: "18:00",
+    cancha: "Cancha Central",
+    equipo_local: {
+      nombre: "Los Titanes",
+      jugadores: ["Carlos", "Luis", "Pedro", "Andrés", "Julián"]
+    },
+    equipo_visitante: {
+      nombre: "Los Leones",
+      jugadores: ["Jorge", "Cristian", "Oscar", "Iván", "Alex"]
+    }
+  }
+]);
